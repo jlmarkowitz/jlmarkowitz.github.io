@@ -7,9 +7,7 @@ Link color (seafoam green): #7ca693;
 
 body {
     font-family: 'Nunito', sans-serif;
-  }
 
-body {
     background-color: #fff8ea;
     font-family: 'Nunito', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
@@ -35,9 +33,14 @@ body {
     font-size: 1.75em;
     font-weight: 500;
   }
+  
   h4 {
     font-size: 1.35em;
     font-weight: 500;
+  }
+
+  img {
+  width: 100%;
   }
 
   a {
