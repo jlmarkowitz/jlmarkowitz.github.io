@@ -5,6 +5,18 @@ Font color (black): #000000;
 Link color (seafoam green): #7ca693;
 */
 
+#hero {
+  background-color: #fff8ea;
+}
+
+#work {
+  background-color: #fff8ea;
+}
+
+#contact {
+  background-color: #fff8ea;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
 
