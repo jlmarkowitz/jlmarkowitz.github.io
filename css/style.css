@@ -5,8 +5,31 @@ Font color (black): #000000;
 Link color (seafoam green): #7ca693;
 */
 
+* {
+  box-sizing: border-box;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+  
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#header {
+  background-color: aliceblue;
+  padding-bottom: 1em;
+}
+
 #hero {
   background-color: #fff8ea;
+}
+
+#hero h1 {
+  text-align: left; 
 }
 
 #work {
@@ -16,6 +39,7 @@ Link color (seafoam green): #7ca693;
 #contact {
   background-color: #fff8ea;
 }
+
 
 body {
     font-family: 'Nunito', sans-serif;
