@@ -19,18 +19,56 @@ Link color (seafoam green): #7ca693;
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+
+
 #header {
-  background-color: aliceblue;
+  background-color: #c4dbd2;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
   padding-bottom: 1em;
+  margin: 10px;
+  border-bottom: 5px solid #4a4a4a;
+  border-right:  5px solid #4a4a4a;
+  border-left:  5px solid #4a4a4a;
+  border-top:  5px solid #4a4a4a;
+
 }
 
 #hero {
-  background-color: #fff8ea;
+  background-color: #fff8ea;  
+
 }
 
 #hero h1 {
   text-align: left; 
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
+
+main {
+  padding-top: 2px;
+}
+
 
 #work {
   background-color: #fff8ea;
@@ -77,7 +115,47 @@ body {
 
   img {
   width: 100%;
+  width: 1200px;
+
   }
+
+  .logo {
+    max-width: 250px;
+  }
+  
+  .selfie {
+    max-width: 350px;
+  }
+  
+  .wn {
+    max-width: 250px;
+  }
+  
+  .tdoc {
+    max-width: 350px;
+  }
+  
+  .linkedin {
+    max-width: 52px;
+  }
+  
+  .home {
+    max-width: 200px;
+  }
+  
+  .main {
+    max-width: 200px;
+  }
+  
+  .prv {
+    max-width: 200px;
+  }
+  
+  .help {
+    max-width: 200px;
+  }
+
+
 
   a {
     color: #7ca693;
@@ -115,12 +193,16 @@ body {
   }
 
   .button.cv {
-    background-color: transparent;
-    color: #151928;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    display: inline-block; 
+    background-color: #c4dbd2;
+    color: #151928; /* needed to override the default link color */
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 3px;
+    border-bottom: 2px solid #151928; /* width of the border, type, color */
+    transition: 0.2s opacity;
   }
   .button.cv:hover {
-    background-color: #c4dbd2;
-    color: #151928;
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
   }
