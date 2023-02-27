@@ -1,259 +1,241 @@
-/*
-Colors used:
-Primary background color (lt yellow): #fff8ea;
+/*Colors used:Primary background color (lt yellow): #fff8ea;
 Font color (black): #000000;
 Link color (seafoam green): #7ca693;
 */
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-
 /* Layout styling */
+
 .container {
-  padding: 0 15px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  
+	padding: 0 15px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+	margin: 25px 0;
+	/* 25px top and bottom, 0 left and right */
 }
-
-
-
-nav > ul {
-  list-style-type: none;
-  padding: 0;
+nav>ul {
+	list-style-type: none;
+	padding: 0;
 }
-
-nav > ul > li {
-  display: inline-block;
+nav>ul>li {
+	display: inline-block;
 }
-
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
+nav>ul>li>a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4a4a4a;
 }
-
-
-
 #header {
-  background-color: #c4dbd2;
-  text-align: center;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 1em;
-  margin: 10px;
-  border-bottom: 5px solid #4a4a4a;
-  border-right:  5px solid #4a4a4a;
-  border-left:  5px solid #4a4a4a;
-  border-top:  5px solid #4a4a4a;
-
+	background-color: #c4dbd2;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 1em;
+	margin: 10px;
+	border-bottom: 5px solid #4a4a4a;
+	border-right: 5px solid #4a4a4a;
+	border-left: 5px solid #4a4a4a;
+	border-top: 5px solid #4a4a4a;
 }
-
 #hero {
-  background-color: #fff8ea;  
-  text-align: center;
+	background-color: #fff8ea;
+	text-align: center;
 }
-
 #hero span {
-  display: block;
+	display: block;
 }
-
 #hero h1 {
-  text-align: center; 
-  padding: 20px 0;
-  display: block;
-  width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	display: block;
+	width: 100%;
 }
-
 main {
-  padding-top: 2px;
+	padding-top: 2px;
 }
-
-
 #work {
-  background-color: #fff8ea;
+	background-color: #fff8ea;
 }
-
 #contact {
-  background-color: #fff8ea;
+	background-color: #fff8ea;
 }
-
-
 body {
-    font-family: 'Nunito', sans-serif;
-
-    background-color: #fff8ea;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 500; /* Sets the font weight to 300 */
-    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #000000;
-  }
-  
-  h1, h2, h3, h4 {
-    line-height: 1.4;
-  }
-  h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-    
-  }
-  
-  h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    font-weight: 500;
-  }
-  
-  h4 {
-    font-size: 1.35em;
-    font-weight: 500;
-  }
-
-  img {
-  width: 100%;
-
-  }
-
-
-
-  a {
-    color: #7ca693;
-    text-decoration: none; /* No underlining */
-  }
-  a:hover {
-    color: #7ca693;
-    text-decoration: underline; /* Underlining when hovering over a link */
-  }
-  a:visited { /* visited link */
-    color: #796e86;
-  }
-  a:active { /* selected link */
-    color: #684860;
-  }
-  a:hover,
-  a:focus {
-  color: #7ca693;
-  text-decoration: underline;
+	background-color: #fff8ea;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	/* Sets the font size to 16px */
+	font-weight: 500;
+	/* Sets the font weight to 300 */
+	line-height: 1.6;
+	/* Sets the line-height to 1.6 * the font-size */
+	color: #000000;
+}
+h1, h2, h3, h4 {
+	line-height: 1.4;
+}
+h1 {
+	font-size: 2.75em;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2.25em;
+	font-weight: 700;
+}
+h3 {
+	font-size: 1.75em;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1.35em;
+	font-weight: 500;
+}
+img {
+	width: 100%;
+	border-radius: 5px;
 }
 
-.button.contact {
-    display: inline-block; 
-    background-color: #c4dbd2;
-    color: #151928; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #151928; /* width of the border, type, color */
-    transition-duration: 0.2s opacity;
-  }
-  .button.contact:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-  }
 
 
-  .button.cv {
-    display: inline-block; 
-    background-color: #c4dbd2;
-    color: #151928; /* needed to override the default link color */
-    font-weight: 500;
-    padding: 6px;
-    border-radius: 3px;
-    border-bottom: 2px solid #151928; /* width of the border, type, color */
-    transition-duration: 0.2s opacity;
-  }
-  .button.cv:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-  }
-
-  
-  @keyframes color-change {
-    from {fill: #edc655;}
-    to {fill: #f76414;}
-  }
-  @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
-  }
-  @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
-  }
-  @keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
-  }
-
-  .sun {
-    animation: 4s color-change infinite alternate linear;
-  }
-  .cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-  }
-  .cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-  }
-  
-/* ==============================
-Medium devices (640px and larger)
-================================= */
-@media only screen and (min-width: 640px) {
-
-} header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: center;
-    margin-top: 4px;
-  }
-
-  .col-md-6 {
-    width: 50%;
-    padding: 6px;
-  }
-
-  [class*="col-"] {
-    float: left;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
-/* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
+a {
+	color: #7ca693;
+	text-decoration: none;
+	/* No underlining */
 }
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
+a:hover {
+	color: #7ca693;
+	text-decoration: underline;
+	/* Underlining when hovering over a link */
 }
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {
+a:visited {
+	/* visited link */
+	color: #796e86;
 }
+a:active {
+	/* selected link */
+	color: #684860;
+}
+a:hover, a:focus {
+	color: #7ca693;
+	text-decoration: underline;
+}
+.buttoncontact {
+	display: inline-block;
+	background-color: #c4dbd2;
+	color: #151928;
+	/* needed to override the default link color */
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #151928;
+	/* width of the border, type, color */
+	transition-duration: 0.2s opacity;
+}
+.buttoncontact:hover {
+	opacity: 0.8;
+	/* Reduces the opacity of the button to 80% */
+	text-decoration: none;
+}
+.buttoncv {
+	display: inline-block;
+	background-color: #c4dbd2;
+	color: #151928;
+	/* needed to override the default link color */
+	font-weight: 500;
+	padding: 6px;
+	border-radius: 3px;
+	border-bottom: 2px solid #151928;
+	/* width of the border, type, color */
+	transition-duration: 0.2s opacity;
+}
+.buttoncv:hover {
+	opacity: 0.8;
+	/* Reduces the opacity of the button to 80% */
+	text-decoration: none;
+}
+@keyframes color-change {
+	from {
+		fill: #edc655;
+	}
+	to {
+		fill: #f76414;
+	}
+}
+@keyframes color-change {
+	0% {
+		fill: #edc655;
+	}
+	50% {
+		fill: #fcffad;
+	}
+	100% {
+		fill: #f76414;
+	}
+}
+@keyframes cloud-move {
+	from {
+		transform: translate(0, 50px);
+	}
+	to {
+		transform: translate(200px, 50px);
+	}
+}
+@keyframes cloud-move-reverse {
+	from {
+		transform: translate(446px, 48px);
+	}
+	to {
+		transform: translate(100px, 48px);
+	}
+}
+.sun {
+	animation: 4s color-change infinite alternate linear;
+}
+.cloud-front {
+	animation: 30s cloud-move infinite alternate linear;
+}
+.cloud-back {
+	animation: 34s cloud-move-reverse infinite alternate linear;
+}
+/* ==============================Medium devices (640px and larger)================================= */
+
+@media only screen and (min-width: 640px) {}
+header {
+	text-align: unset;
+	padding: 20px 0 13px;
+}
+nav {
+	width: auto;
+	float: center;
+	margin-top: 4px;
+}
+.col-md-6 {
+	width: 50%;
+	padding: 6px;
+}
+[class*="col-"] {
+	float: left;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.col-td {
+	width: 25%;
+	padding: 6px;
+}
+/* ==============================Large devices (1024px or larger)================================= */
+
+@media only screen and (min-width: 1024px) {}
+/* ==============================X-large devices (1440px or larger)================================= */
+
+@media only screen and (min-width: 1440px) {}
+/* ==============================Extra-large devices (1920px or larger)================================= */
+
+@media only screen and (min-width: 1920px) {}
