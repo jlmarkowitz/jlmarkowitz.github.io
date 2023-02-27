@@ -9,11 +9,16 @@ Link color (seafoam green): #7ca693;
   box-sizing: border-box;
 }
 
+
 /* Layout styling */
 .container {
   padding: 0 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   
 }
+
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
@@ -55,13 +60,17 @@ nav > ul > li > a {
 
 #hero {
   background-color: #fff8ea;  
+  text-align: center;
+}
 
+#hero span {
+  display: block;
 }
 
 #hero h1 {
-  text-align: left; 
+  text-align: center; 
   padding: 20px 0;
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -96,6 +105,7 @@ body {
   h1 {
     font-size: 2.75em;
     font-weight: 700;
+    
   }
   
   h2 {
@@ -115,45 +125,9 @@ body {
 
   img {
   width: 100%;
-  width: 1200px;
 
   }
 
-  .logo {
-    max-width: 250px;
-  }
-  
-  .selfie {
-    max-width: 350px;
-  }
-  
-  .wn {
-    max-width: 250px;
-  }
-  
-  .tdoc {
-    max-width: 350px;
-  }
-  
-  .linkedin {
-    max-width: 52px;
-  }
-  
-  .home {
-    max-width: 200px;
-  }
-  
-  .main {
-    max-width: 200px;
-  }
-  
-  .prv {
-    max-width: 200px;
-  }
-  
-  .help {
-    max-width: 200px;
-  }
 
 
 
@@ -178,19 +152,20 @@ body {
 }
 
 .button.contact {
-    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    display: inline-block; 
     background-color: #c4dbd2;
     color: #151928; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #151928; /* width of the border, type, color */
-    transition: 0.2s opacity;
+    transition-duration: 0.2s opacity;
   }
   .button.contact:hover {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
     text-decoration: none;
   }
+
 
   .button.cv {
     display: inline-block; 
@@ -200,9 +175,58 @@ body {
     padding: 6px;
     border-radius: 3px;
     border-bottom: 2px solid #151928; /* width of the border, type, color */
-    transition: 0.2s opacity;
+    transition-duration: 0.2s opacity;
   }
   .button.cv:hover {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
     text-decoration: none;
   }
+
+  
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+} header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: center;
+    margin-top: 4px;
+  }
+  .col-md-6 {
+    width: 50%;
+    padding: 6px;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
+}
