@@ -158,6 +158,15 @@ a:hover, a:focus {
 	/* Reduces the opacity of the button to 80% */
 	text-decoration: none;
 }
+
+.linkedin {
+	width: 32px;
+}
+
+.logo {
+	width: 300px;
+}
+
 @keyframes color-change {
 	from {
 		fill: #edc655;
@@ -204,7 +213,7 @@ a:hover, a:focus {
 }
 /* ==============================Medium devices (640px and larger)================================= */
 
-@media only screen and (min-width: 640px) {}
+@media only screen and (min-width: 640px) {
 header {
 	text-align: unset;
 	padding: 20px 0 13px;
@@ -229,6 +238,7 @@ nav {
 .col-td {
 	width: 25%;
 	padding: 6px;
+}
 }
 /* ==============================Large devices (1024px or larger)================================= */
 
