@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en">
 <head>
-	<title>About Me</title>
-</head>
-<body>
-	-
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -18,14 +14,18 @@
 	<meta charset="utf-8">
 	<meta content="Jess Markowitz" name="author">
 	<meta content="About Me" name="description">
+	<title>About Me</title>
+</head>
+
+	<body id="about-page">
 	<main>
 		
-        <!-- Header -->
+	<!-- Header -->
 		<header id="header">
 			<div class="container">
 				<picture><source srcset="img/logonew.png"> <img alt="logo" class="logo" src="img/logonew.png"></picture> 
                 
-        <!-- Navigation -->
+	<!-- Navigation -->
 				<div>
 					<nav>
 						<ul class="navigation">
@@ -44,7 +44,7 @@
 			</div>
 		</header>
         
-        <!-- About Me -->
+<!-- About Me -->
 
 		<div class="row">
 		<!-- open row that holds (2) columns for project -->
@@ -52,7 +52,7 @@
 			<!-- open first column (used for image) -->
 				<picture><source media="(max-width:300px)" srcset="img/self1.jpg"> <img alt="selfie" class="selfie" src="img/self1.jpg"></picture>
 			</div><!-- end first column -->
-			
+	
 			<div class="col-md-6 col-lg-7">
 			<!-- open second column (used for text) -->
 				<h2>My Story</h2>
@@ -60,10 +60,11 @@
 				 I am a certified UX designer whose main goal is to keep the "user" in user experience. 
 				 I am passionate about social justice, especially lifting up underserved communities and creating healthcare access for all. 
 				 I am proud to hold over a decade of combined experience in patient-facing healthcare roles, clinical research, and health tech. 
-				 View my CV by clicking <a class="buttoncv" href="files/cvjessmarkowitz.pdf" target="_blank">here</a>!
+				 View my CV by <a class="buttoncv" href="files/cvjessmarkowitz.pdf" target="_blank">clicking here.</a>
 				</p><!-- end paragraph -->
-                
-                 <div class="row">
+			</div>     
+
+            <div class="col-md-6 col-lg-7">
 					<h2>Skills + Tools</h2>
 					<div class="col-md-6 col-lg-7">
 						<h3>Tools I Use:</h3>
@@ -89,22 +90,26 @@
 							<li>Client-centered outreach, counseling, and education</li>
 						</ul>
 					</div>
-					</div><!-- end row -->
-			</div><!-- end second column -->
-		</div><!-- end row that holds (2) columns for project -->
+			</div>
+		</div>
+
 	</main>
   
-    <!-- Footer -->
-	<footer id="contact">
+<!-- Footer -->
+  <footer id="footer">
+	<div class="container">
 		<h2>Get in Touch</h2>
-		<p>Do you have a product idea, want to discuss a project, or need a designer? Drop me an email: <a class="buttoncontact" href="mailto:jlmarkowitz@gmail.com">Click here!</a></p>
+		<p>Do you have a product idea, want to discuss a project, or need a designer?
+			Email me by <a class="button" href="mailto:jlmarkowitz@gmail.com">clicking here!</a></p>
+		
+<!--Social Media Layout and Placeholders-->
 		<div>
-			<!--Social Media Layout and Placeholders-->
-			 <a href="https://www.linkedin.com/in/jlmarkowitz" target="_blank"><img alt="linkedin" class="social" src="https://i.postimg.cc/Rq595K3D/2023-02-04-12-24-45.png"></a>
+			<a href="https://www.linkedin.com/in/jlmarkowitz" target="_blank"><img alt="linkedin" class="social" src="https://i.postimg.cc/Rq595K3D/2023-02-04-12-24-45.png"></a>
 		</div>
-		<p>© Jess Markowitz 2023</p>
-	</footer>
+	</div>
 
+</footer>
+© Jess Markowitz 2023
 	<script src="js/scripts.js"></script>
 </body>
 </html>
