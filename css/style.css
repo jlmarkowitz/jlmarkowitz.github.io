@@ -1,7 +1,4 @@
-/*Colors used:Primary background color (lt yellow): #fff8ea;
-Font color (black): #000000;
-Link color (seafoam green): #7ca693;
-*/
+
 
 * {
 	box-sizing: border-box;
@@ -76,31 +73,31 @@ h1, h2, h3, h4 {
 }
 h1 {
 	font-size: 2.75em;
-	font-weight: 700;
+	font-weight: 400;
 }
 h2 {
 	font-size: 2.25em;
-	font-weight: 700;
+	font-weight: 400;
 }
 h3 {
 	font-size: 1.75em;
-	font-weight: 500;
+	font-weight: 400;
 }
 h4 {
 	font-size: 1.35em;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 
 body {
 	background-color: #fff8ea;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 16px;
-	/* Sets the font size to 16px */
-	font-weight: 500;
-	/* Sets the font weight to 300 */
-	line-height: 1.6;
-	/* Sets the line-height to 1.6 * the font-size */
+	/* Sets the font size*/
+	font-weight: 300;
+	/* Sets the font weight */
+	line-height: 1.8;
+	/* Sets the line-height */
 	color: #000000;
 }
 
@@ -121,7 +118,7 @@ a:hover {
 }
 a:visited {
 	/* visited link */
-	color: #114c3f;
+	color: #3e346c;
 }
 a:active {
 	/* selected link */
@@ -153,8 +150,8 @@ footer {
 	background-color: #748d7d;
 	color: #f1f3e5;
 	/* needed to override the default link color */
-	font-weight: 600;
-	padding: 5px;
+	font-weight: 500;
+	padding: 4px;
 	border-radius: 3px;
 	border-bottom: 2px solid #000000;
 	/* width of the border, type, color */
@@ -170,8 +167,8 @@ footer {
 	background-color: #748d7d;
 	color: #f1f3e5;
 	/* needed to override the default link color */
-	font-weight: 600;
-	padding: 5px;
+	font-weight: 500;
+	padding: 4px;
 	border-radius: 3px;
 	border-bottom: 2px solid #000000;
 	/* width of the border, type, color */
@@ -198,13 +195,19 @@ footer {
 }
 
 .work {
-	max-width: 650px;
+	max-width: 500px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .logo {
 	max-width: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+
+  .tdoc {
+	max-width: 500px;
 	margin-top: 10px;
 	margin-bottom: 10px;
   }
