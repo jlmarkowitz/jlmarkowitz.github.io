@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/scripts.js"></script>
 <head>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
@@ -14,6 +16,7 @@
 	<meta charset="utf-8">
 	<meta content="Jess Markowitz" name="author">
 	<meta content="Welcome to my portfolio homepage" name="description">
+	<script src="https://kit.fontawesome.com/dc7bf259b7.js" crossorigin="anonymous"></script>
 	<title>Portfolio: Jess Markowitz</title>
 </head>
 
@@ -22,7 +25,8 @@
 		<!-- Header -->
 		<header id="header">
 			<div class="container">
-				<picture><source srcset="img/logonew.png"> <img alt="logo" class="logo" src="img/logonew.png"></picture> 
+				<div class="navtoggle" id="myNavtoggle">
+				  <img class="img/logonew.png"> <img alt="logo" class="logo" src="img/logonew.png"></picture> 
         
     <!-- Navigation -->
 				<div>
@@ -37,8 +41,12 @@
 							<li>
 								<a href="#contact">Contact Me</a>
 							</li>
+							<li>
+								<a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+							</li>
 						</ul>
 					</nav>
+				</div>
 				</div>
 			</div>
 		</header>
