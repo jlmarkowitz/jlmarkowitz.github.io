@@ -15,6 +15,10 @@
 	padding-right: 0;
   }
 
+.navtoggle li:not(:last-child) {
+	display: none;
+  }
+
 .navtoggle, .navtoggle.responsive {
 	position: relative;
   }
@@ -33,10 +37,6 @@
   .navtoggle.responsive li:last-child  {
 	padding: 0 0 10px;
   }  
-
-  .navtoggle li:not(:last-child) {
-	display: none;
-  }
 
 
 nav>ul {
@@ -141,18 +141,18 @@ img {
   }
 
 a {
-	color: #7ca693;
+	color: #18231E;
 	text-decoration: none;
 	/* No underlining */
 }
 a:hover {
-	color: #7ca693;
+	color: #2D3731;
 	text-decoration: underline;
 	/* Underlining when hovering over a link */
 }
 a:visited {
 	/* visited link */
-	color: #3e346c;
+	color: #2D3731;
 }
 a:active {
 	/* selected link */
